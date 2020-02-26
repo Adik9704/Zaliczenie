@@ -1,0 +1,58 @@
+body {
+	color: #ffffff;
+  background-color: #000000;
+	text-align: center;
+}
+header, nav, main, footer {  display: block;   width: 1078px; }
+
+div {
+	display: block;
+	width: 1078px;
+	height: 100px;
+}
+main{
+	height: auto;
+	overflow: hidden;
+}
+#col-left {
+	background-color: #006acc;
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+#col-center{
+
+	height: auto;
+}
+footer{
+	background-color: blue;
+	clear:both;
+}
+#container{
+	position: relative;
+	margin: auto;
+	width: 1078px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ffffff;
+}
+#logo{
+	position: relative;
+	top:10px;
+	left:10px;
+	width: 185px;
+	height: 40px;
+	border: 2px dotted #731980;
+}
+header{
+	position: relative;
+	background-color: green;
+}
+#logo img{
+	max-height: 40px;
+	width: 200px;
+}
+nav{
+	text-align: left;
+	background-color: gray;
+}
